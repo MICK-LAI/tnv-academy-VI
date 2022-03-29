@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizza speciale</title>
+    </head>
+    <body style="background-color: beige;">
+        <h1>Pizza speciale di Michele Lai</h1>
+        <p>
+            Pizza con <strong>pochi</strong> ingredienti di qualità <strong>discutibile</strong> e dubbia provenienza,
+            per chi si sa <strong>accontentare</strong>.            
+        </p>
+        <img src="assets/pizza_asparagi.png" width="225" height="300">
+        <h2>Ingredienti</h2>
+            <ul>
+                <li>Pomodoro <a href="https://it.wikipedia.org/wiki/Solanum_lycopersicum" target="_blank">(vedi dettagli prodotto)</a></li>
+                <li>Mozzarella <a href="https://it.wikipedia.org/wiki/Mozzarella" target="_blank">(vedi dettagli prodotto)</a></li>
+                <li>Asparagi <a href="https://it.wikipedia.org/wiki/Asparagus_officinalis" target="_blank">(vedi dettagli prodotto)</a></li>
+                <li>Guanciale <a href="https://it.wikipedia.org/wiki/Guanciale_(gastronomia)" target="_blank">(vedi dettagli prodotto)</a></li>                
+            </ul>
+        <!--Tabella valori nutrizionali-->
+        <h2>Valori nutrizionali</h2>
+        <table style="background-color:white" border="1">
+            <!--Nomi colonne-->
+            <tr>
+                <th>Nutriente</th>
+                <th>Quantità</th>
+            </tr>
+            <!--Riempimento colonne-->
+            <tr>
+                <td>Proteine</td>
+                <td>Il tanto giusto</td>
+            </tr>
+            <tr>
+                <td>Grassi</td>
+                <td>Quanto basta</td>
+            </tr>
+            <tr>
+                <td>Carboidrati</td>
+                <td>Molti</td>
+            </tr>
+        </table>
+        <!--Maggiori info-->
+        <h2>Maggiori informazioni</h2>
+        <form action="informazioni.php" method="POST">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="cognome">Cognome:</label><br>
+            <input type="text" id="cognome" name="cognome"><br>
+            <label for="indirizzo">Indirizzo:</label><br>
+            <input type="text" id="indirizzo" name="indirizzo" /><br>
+            <label>Scrivi la tua richiesta</label><br>
+            <textarea rows="7" cols="36"></textarea><br>
+
+        <!--Return to the homepage-->
+        <a href="/pizzeria-da-ciro/">Back to homepage</a>
+    </body>
+</html>
