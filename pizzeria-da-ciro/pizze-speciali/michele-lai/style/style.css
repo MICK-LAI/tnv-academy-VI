@@ -145,5 +145,8 @@ input, textarea{
 }
 
 #homepage {
-    font-size: 25px;
+    display: block;
+    margin: 25px;
+    font-size: 35px;
+    text-align: right;
 }
